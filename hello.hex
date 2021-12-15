@@ -1,0 +1,15 @@
+main {
+	add out 0x48 ; 'H'
+	add out 0x65 ; 'e'
+	add out 0x6C ; 'l'
+	add out 0x6C ; 'l'
+	add out 0x6F ; 'o'
+	add out 0x20 ; ' '
+	add out 0x77 ; 'w'
+	add out 0x6F ; 'o'
+	add out 0x72 ; 'r'
+	add out 0x6C ; 'l'
+	add out 0x64 ; 'd'
+	add out 0xA ; '\n'
+}
+
