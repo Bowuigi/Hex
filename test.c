@@ -1,8 +1,9 @@
 #include "parser.h"
 
 int main() {
-	char *s = "Hello world!";
+	char *s = "add r0 0x20 jmp p1 block";
 	parser_t parser = Parser_New(s);
-	Parser_NextToken(&parser);
-	Parser_NextToken(&parser);
+	token_t token = Parser_NextToken(&parser);
+	while (1)
+		token = Parser_NextToken(&parser);
 }
